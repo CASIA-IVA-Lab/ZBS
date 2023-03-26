@@ -12,7 +12,7 @@ Para4="port_0_17fps, busyBoulvard, fluidHighway, tramStation, turbulence0, turbu
 
 
 if [ "$1" == "cdnet" ] ; then
-    for data_dir in `ls -d datasets/cdnet2014/*/*`
+    for data_dir in `ls -d ../cdnet2014/*/*`
     do
         subcategory=$(basename "$data_dir")
         if [[ $Para1 =~ $subcategory ]]; then

@@ -63,13 +63,12 @@ If you find this project useful for your research, please consider citing this p
 
 ```
 @inproceedings{
-chen2022objseq,
-title={Obj2Seq: Formatting Objects as Sequences with Class Prompt for Visual Tasks},
-author={Zhiyang Chen and Yousong Zhu and Zhaowen Li and Fan Yang and Wei Li and Haixin Wang and Chaoyang Zhao and Liwei Wu and Rui Zhao and Jinqiao Wang and Ming Tang},
-booktitle={Advances in Neural Information Processing Systems},
-editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
-year={2022},
-url={https://openreview.net/forum?id=cRNl08YWRKq}
+an2023zbs,
+title={{ZBS}: Zero-shot Background Subtraction via instance-level background modeling and foreground selection},
+author={Yongqi An and Xu Zhao and Tao Yu and Haiyun Guo and Chaoyang Zhao and Ming Tang and Jinqiao Wang},
+booktitle={Conference on Computer Vision and Pattern Recognition 2023},
+year={2023},
+url={https://openreview.net/forum?id=f-9UZN4GEV}
 }
 ```
 

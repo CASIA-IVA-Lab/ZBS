@@ -244,7 +244,7 @@ def foreground_selection(rec_box: torch.tensor, bg_boxes: torch.tensor, fore_thr
         IoU_list.append(IoU(rec_box, bg_box))
     # IoF uses a larger threshold than IoU, because the foreground less than the union of foreground and background. 
     # Rule 2 introduced in the paper.
-    if np.max(IoU_list) < fore_threshold and IoF(rec_box, bg_boxes[np.argmax(IoU_list)]) < 0.5 + fore_threshold / 2:
+    if np.max(IoU_list) < fore_threshold and IoF(rec_box, bg_boxes[np.argmax(IoU_list)]) < 0.5 + fore_threshold / 2:    # the threshold of IoF is larger than IoU
         return True
     return False
 

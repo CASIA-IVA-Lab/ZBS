@@ -18,7 +18,7 @@ conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch-lts -c 
 Then, clone the repository locally and install dependencies:
 ```bash
 # under your working directory
-git clone https://github.com/CASIA-IVA-Lab/ZBS.git
+git clone git@github.com:CASIA-IVA-Lab/ZBS.git
 git clone git@github.com:facebookresearch/detectron2.git
 cd detectron2
 pip install -e .
