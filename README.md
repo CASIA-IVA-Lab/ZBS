@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This repository is an official implementation of the **[ZBS](https://arxiv.org/abs/2209.13948)**.
+This repository is an official implementation of the **[ZBS](https://arxiv.org/abs/2303.14679)**.
 ZBS fully utilizes the advantages of zero-shot object detection to build the open-vocabulary instance-level background model.
 It can detect most of the categories in the real world and can detect the unseen foreground categories outside the pre-defined categories. ZBS
 achieves remarkably **4.70%** F-Measure improvements over state-of-the-art unsupervised methods.
